@@ -1,0 +1,73 @@
+/* ESTILO PARA MOBILE - MAX 640 PX */
+
+
+    @media (max-width: 640px){
+
+        @font-face {
+            font-family: 'Sora';
+            src: url('Sora-VariableFont_wght.ttf') format('truetype');
+        }
+        body{
+            background-color: #efefef;
+            display: flex;
+            justify-content: center;
+        }
+      
+        
+        .container{
+            background-color: #ffffff;
+            width: 55%;
+            height: 400px;
+            border-radius: 15px;
+            margin-top: 85px;
+        }
+
+        .img-container{
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .img-container img{
+           width: 100%;
+           border-radius: 20px;
+        }
+
+        .design{
+            background-color: #E6D6FC;
+            font-family: 'Sora';
+            color: #883AE1;
+            border-radius: 10px;
+            width: 85px;
+            text-align: center;
+            margin-top: 10px;
+            margin-left: 20px;
+            font-weight: 700;
+            padding: 2px;
+            font-size: 10px;
+        }
+
+        .content{
+            padding: 10px;
+        }
+        
+        .content-title{
+            font-family: 'Sora';
+            font-weight: 700;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .content-p{
+            font-family: 'Sora';
+            font-size: 14px;
+        }
+
+        .tag{
+            font-family: 'Sora';
+            font-size: 12px;
+            color: #E5EAF0;
+        }
+        
+    }
+
+
